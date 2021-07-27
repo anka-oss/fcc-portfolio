@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Courgette);
+
+
+  body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    background-color: #006622;
+    align-content: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  main {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    width: 65px;
+    height: 65px;
+    border-radius: 20%;
+  }
+
+  li {
+    float: left;
+  }
+
+  ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    align-self: center;
+    color: #e6ffe6;
+    font-weight: bold;
+  }
+
+  h2 {
+    align-self: center;
+    padding: 2em;
+  }
+
+  p {
+    align-self: center;
+  }
+
+  .nav-link, .project-tile {
+    display: block;
+    text-decoration: none;
+    font-size: 1.25em;
+  }
+
+  .nav-link {
+    color: #e6ffe6;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .project-tile {
+    color: black;
+  }
+
+  .project-tile:hover {
+    color: #006622;
+    text-decoration: underline;
+  }
+
+  .sm {
+    display: flex;
+    padding-bottom: 2em;
+    justify-content: center;
+  }
+
+  .sm-icon {
+    max-width: 2em;
+    max-height: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .email {
+    color: #e6ffe6;
+    text-decoration: none;
+  }
+
+  .email:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  #logo {
+    display: flex;
+    margin: 1em;
+  }
+
+  #logo-txt {
+    font-family: Courgette;
+    font-size: 1.25em;
+    color: #e6ffe6;
+    margin: 1em;
+    margin-left: 0.5em;
+    align-self: center;
+  }
+
+  #menu {
+    margin: 1em;
+    align-self: center;
+  }
+
+  #welcome-section {
+    height: 100vh;
+    background: url("https://images.squarespace-cdn.com/content/v1/573ba2027c65e49670e403a8/1491438138829-TJZSZAW3N29MBQAKF9A4/grass_texture241.jpg?format=2500w") repeat-x;
+    background-color: #e6ffe6;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #profile-link {
+    font-family: Courgette;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  #profile-link:hover {
+    text-decoration: underline;
+    color: #006622;
+  }
+
+  #projects {
+    margin: 0;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6ffe6;
+  }
+
+  #projects ul {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #006622;
+    color: #e6ffe6;
+  }
+
+  #contact h2 {
+    font-size: 2em;
+    padding: 0;
+  }
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #006622;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  .nav-link {
+    font-size: 2em;
+  }
+
+  .nav-link:hover {
+    text-decoration: none;
+  }
+
+  .project-tile {
+    font-size: 2em;
+    padding-bottom: 2em;
+  }
+
+  #header-img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 0;
+  }
+
+  #logo {
+    align-self: center;
+  }
+
+  #logo-txt {
+    font-size: 2em;
+  }
+
+  #welcome-section {
+    height: 100vh;
+    background: url("https://images.squarespace-cdn.com/content/v1/573ba2027c65e49670e403a8/1491438138829-TJZSZAW3N29MBQAKF9A4/grass_texture241.jpg?format=2500w") fixed;
+  }
+
+  #profile-link {
+    font-size: 2.8em;
+  }
+
+  #projects ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #projects li {
+    align-self: center;
+  }
+
+  #contact h2 {
+    font-size: 3em;
+  }
+
+  #contact p {
+    font-size: 2em;
+  }
+}
