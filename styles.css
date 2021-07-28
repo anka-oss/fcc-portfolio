@@ -177,8 +177,10 @@
 
 
 @media screen and (max-width: 600px) {
+
   nav {
     display: flex;
+    max-width: 100%;
     flex-direction: column;
     background-color: #006622;
   }
@@ -193,6 +195,7 @@
 
   .nav-link {
     font-size: 2em;
+    padding-bottom: 1em;
   }
 
   .nav-link:hover {
@@ -218,9 +221,18 @@
     font-size: 2em;
   }
 
+  #menu {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  #menu ul {
+    display: flex;
+  }
+
   #welcome-section {
     height: 100vh;
-    background: url("https://images.squarespace-cdn.com/content/v1/573ba2027c65e49670e403a8/1491438138829-TJZSZAW3N29MBQAKF9A4/grass_texture241.jpg?format=2500w") fixed;
+    background: url("https://images.squarespace-cdn.com/content/v1/573ba2027c65e49670e403a8/1491438138829-TJZSZAW3N29MBQAKF9A4/grass_texture241.jpg?format=2500w") no-repeat center center fixed;
   }
 
   #profile-link {
